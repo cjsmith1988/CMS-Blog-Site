@@ -3,7 +3,7 @@
  
 **Project name**: Model-View-Controller (MVC) Challenge
 
-**Description**: This project purpose was to test skills learned with Sequelize and Handlebars and further node.js & Express.
+**Description**: This project purpose was to test skills learned with Sequelize and Express-Handlebars and further skills using node.js & Express.
 
 **Special Notes**: This application is applied to a Heroku live site.
 
@@ -11,9 +11,7 @@
 
 access Github repository here: https://github.com/cjsmith1988/CMS-Blog-Site
 
-Live URL: https://immense-ridge-01896.herokuapp.com/api/
-
-
+Live URL: https://pure-wildwood-95738.herokuapp.com/
 
 To download this application localy follow these steps:
 
@@ -23,9 +21,7 @@ To download this application localy follow these steps:
 
 - In the command line type "npm i"
 
-- Open a command line in the location of the cloned directory and type "mysql -u root -h localhost -p" and "CREATE DATABASE ecommerce_db;" and "use ecommerce_db;"
-
-- this will create the mySQL database
+- Open a command line in the location of the cloned directory and type "mysql -u root -h localhost -p" and "source ./db/schema.sql;" and "use cms_blog_db;"
 
 - create a new file in the directory to store your connection information by using the git bash command "touch ./.env"
 
@@ -35,7 +31,7 @@ DB_PW='<<your mySQL password>>' > ./.env"
 
 - Back in the GItBash console type "npm start" to start the application
 
-**Usage**: This was used for testing sequelize methods.
+**Usage**: This was used for testing sequelize methods and Express-Handlebars.
 
 **Contributing**: open for contribution, keep in seperate branch
 
@@ -119,7 +115,14 @@ WHEN I am idle on the page for more than a set time
 
 THEN I am automatically signed out of the site 
 
+** Questions
+  View my: [GitHub profile](https://www.github.com/cjsmith1988)
+
+  If you have any further questions regarding this project please email: [cj1988333@hotmail.com](mailto:cj1988333@hotmail.com?subject=[Question]CMS-Blog-Site).
+
 ![Homepage view](https://github.com/cjsmith1988/CMS-Blog-Site/blob/main/public/images/HomeScreenCap.PNG?raw=true)
 ![Dashboard view](https://github.com/cjsmith1988/CMS-Blog-Site/blob/main/public/images/DashboardScreenCap.PNG?raw=true)
 ![Login view](https://github.com/cjsmith1988/CMS-Blog-Site/blob/main/public/images/LoginScreenCap.PNG?raw=true)
 ![Login view](https://github.com/cjsmith1988/CMS-Blog-Site/blob/main/public/images/EditPostScreenCap.PNG?raw=true)
+
+
