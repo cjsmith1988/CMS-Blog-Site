@@ -119,6 +119,6 @@ WHEN I am idle on the page for more than a set time
 
 THEN I am automatically signed out of the site 
 
-![Api Category view](https://github.com/cjsmith1988/E-Commerce-Back-End/blob/main/images/insomniaCategoryScreenGrab.PNG?raw=true)
+![Homepage view](https://github.com/cjsmith1988/CMS-Blog-Site/blob/main/public/images/HomeScreenCap.PNG?raw=true)
 ![Api Product view](https://github.com/cjsmith1988/E-Commerce-Back-End/blob/main/images/insomniaProductsScreenGrab.PNG?raw=true)
 ![Api Product POST view](https://github.com/cjsmith1988/E-Commerce-Back-End/blob/main/images/insomniaProductsPOSTScreenGrab.PNG?raw=true)
