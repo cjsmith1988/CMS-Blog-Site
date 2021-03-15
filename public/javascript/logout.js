@@ -10,5 +10,19 @@ async function logout() {
     alert(response.statusText);
   }
 }
-setTimeout(logout, 300000);
+const inactivityTime = function () {
+  let time;
+  window.onload = resetTimer;
+  document.onmousemove = resetTimer;
+  document.onkeypress = resetTimer;
+
+  function resetTimer() {
+      clearTimeout(time);
+      time = setTimeout(logout, 300000)
+      // 1000 milliseconds = 1 second
+  }
+};
+window.onload = function() {
+  inactivityTime(); 
+}
 document.querySelector('#logout').addEventListener('click', logout);
