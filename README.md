@@ -5,7 +5,7 @@
 
 **Description**: This project purpose was to test skills learned with Sequelize and Express-Handlebars and further skills using node.js & Express.
 
-**Special Notes**: This application is applied to a Heroku live site.
+**Special Notes**: This application is applied to a Heroku live site. For testing purpose you are automatically logged off after 5 minutes.
 
 **Installation**: 	
 
