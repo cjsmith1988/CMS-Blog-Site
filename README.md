@@ -115,7 +115,8 @@ WHEN I am idle on the page for more than a set time
 
 THEN I am automatically signed out of the site 
 
-** Questions
+**Questions**:
+
   View my: [GitHub profile](https://www.github.com/cjsmith1988)
 
   If you have any further questions regarding this project please email: [cj1988333@hotmail.com](mailto:cj1988333@hotmail.com?subject=[Question]CMS-Blog-Site).
