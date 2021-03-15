@@ -1,11 +1,13 @@
 <article class="post">
-  <div class="title">
-    <span>{{title}}</span>
-    <span>{{post_content}}</span>
-  </div>
-  <div class="meta">
-    by {{user.username}} on {{format_date created_at}}
-    |
-    <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+  <div class="card">
+      <h2 class="title card-header text-uppercase"><a id="card-header-link" href="/post/{{id}}">{{title}}</a></h2>
+      <div class="card-body" id="language-buttons">
+          <textarea rows="2" readonly>{{post_content}}</textarea>
+      </div>
+      <div class="meta card-footer">
+            by {{user.username}} on {{format_date created_at}}
+            |
+            <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+      </div>
   </div>
 </article>

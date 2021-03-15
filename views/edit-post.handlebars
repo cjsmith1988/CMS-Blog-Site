@@ -5,9 +5,15 @@
   </h2>
   <form class="edit-post-form">
     <div>
+      <label for="post-title">Title</label>
       <input name="post-title" type="text" value="{{post.title}}" />
+    </div>
+    <div>
+      <label for="post-content">Content</label>
       <textarea id="post-content" name="post-content">{{post.post_content}}</textarea>
     </div>
+
+
     <div>
       by you on {{format_date post.created_at}}
       |
